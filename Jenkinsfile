@@ -39,7 +39,7 @@ pipeline {
             steps {
                 bat '''
                 mkdir build
-                copy app.py build\\
+                copy flaskapp.py build\\
                 '''
             }
         }
